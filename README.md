@@ -1,40 +1,38 @@
 # dsasnippets README
 
-This is the README for your extension "dsasnippets". After writing up a brief description, we recommend including the following sections.
-
 ## Features
 
-Supports the following snippets:
+Currently supports the following snippets (more to come):
 
 #### Sorting
-- [x] Selection ($slctn-srt)
+- [x] Selection ```$slctn-srt```
 
-- [x] Insertion ($ins-srt)
+- [x] Insertion ```$ins-srt```
 
-- [x] Bubble ($bbl-srt)
+- [x] Bubble ```$bbl-srt```
 
-- [x] Shell ($shell-srt)
+- [x] Shell ```$shell-srt```
 
-- [x] Merge ($mrg-srt)
+- [x] Merge ```$mrg-srt```
 
-- [x] Quick ($qk-srt)
+- [x] Quick ```$qk-srt```
 
-- [x] Heap ($hp-srt)
+- [x] Heap ```$hp-srt```
 
-- [x] Counting ($cnt-srt)
+- [x] Counting ```$cnt-srt```
 
-- [x] Radix ($rx-srt)
+- [x] Radix ```$rx-srt```
 
 #### Searching
-- [x] Linear ($lin-srch)
+- [x] Linear ```$lin-srch```
 
-- [x] Binary ($bi-srch)
+- [x] Binary ```$bi-srch```
 
-- [x] Jump ($jmp-srch)
+- [x] Jump ```$jmp-srch```
 
-- [x] Interpolation ($interpl-srch)
+- [x] Interpolation ```$interpl-srch```
 
-- [x] Fibonacci ($fib-srch)
+- [x] Fibonacci ```$fib-srch```
 
 ## Release Notes
 
