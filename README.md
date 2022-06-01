@@ -8,15 +8,25 @@ Supports the following snippets:
 
 #### Sorting
 [] Selection
+
 [] Insertion
+
 [] Bubble
+
 [] Shell
+
 [] Merge
+
 [] Quick
+
 [] Heap
+
 [] Bucket?
+
 [] Tim?
+
 [] Counting?
+
 [] Radix?
 
 #### Searching
