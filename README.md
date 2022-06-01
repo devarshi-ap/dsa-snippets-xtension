@@ -13,19 +13,15 @@ Supports the following snippets:
 
 - [x] Bubble ($bbl-srt)
 
-- [ ] Shell ()
+- [x] Shell ($shell-srt)
 
-- [ ] Merge
+- [x] Merge ($mrg-srt)
 
-- [ ] Quick
+- [x] Quick ($qk-srt)
 
-- [ ] Heap
+- [x] Heap ($hp-srt)
 
-- [ ] Bucket?
-
-- [ ] Tim?
-
-- [ ] Counting?
+- [x] Counting ($cnt-srt)
 
 - [ ] Radix?
 

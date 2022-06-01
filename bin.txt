@@ -1,13 +1,21 @@
-let bubbleSort = (inputArr) => {
-    let len = inputArr.length;
-    for (let i = 0; i < len; i++) {
-        for (let j = 0; j < len; j++) {
-            if (inputArr[j] > inputArr[j + 1]) {
-                let tmp = inputArr[j];
-                inputArr[j] = inputArr[j + 1];
-                inputArr[j + 1] = tmp;
-            }
-        }
+const getDigitAtPosition = (num, atPosition) => Math.floor(Math.abs(num) / Math.pow(10, atPosition)) % 10
+
+const radixSort = (arr) => {
+    if (!arr.length || arr.length === 1) return arr
+
+    let biggestNumber = arr[arr.length-1]
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > biggestNumber) biggestNumber = arr[i]
     }
-    return inputArr;
-};
+    const biggestNumberPositionsCount = biggestNumber.toString().length
+  
+    for (let position = 0; position < biggestNumberPositionsCount; position++) {
+        let buckets = Array.from({length:10}, () => []) 
+    
+        for (let i = 0; i < arr.length; i++) {
+            buckets[getDigitAtPosition(arr[i], position)].push(arr[i])
+        }
+        arr = [].concat(...buckets)
+    }
+    return arr
+}
