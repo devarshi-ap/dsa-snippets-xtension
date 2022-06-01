@@ -26,17 +26,15 @@ Supports the following snippets:
 - [x] Radix ($rx-srt)
 
 #### Searching
-- [ ] Linear
+- [x] Linear ($lin-srch)
 
-- [ ] Binary
+- [x] Binary ($bi-srch)
 
-- [ ] Jump
+- [x] Jump ($jmp-srch)
 
-- [ ] Interpolation
+- [x] Interpolation ($interpl-srch)
 
-- [ ] Exponential
-
-- [ ] Fibonacci
+- [x] Fibonacci ($fib-srch)
 
 #### Data Structures
 - [ ] Array
