@@ -1,6 +1,6 @@
 {
     "Selection Sort": {
-        "prefix": "!selection-sort",
+        "prefix": "$slctn-srt",
         "body": [
             "function selectionSort(inputArr) { ",
             "    let n = inputArr.length;",
@@ -23,6 +23,74 @@
             "    return inputArr;",
             "}",
         ],
-        "description": "Selection Sort Algorithm"
-    }
+        "description": "Selection Sorting Algorithm"
+    },
+    "Insertion Sort": {
+        "prefix": "$ins-srt",
+        "body": [
+            "function insertionSort(inputArr) {",
+            "    let n = inputArr.length;",
+            "        for (let i = 1; i < n; i++) {",
+            "            // Choosing the first element in our unsorted subarray",
+            "            let current = inputArr[i];",
+            "            // The last element of our sorted subarray",
+            "            let j = i-1; ",
+            "            while ((j > -1) && (current < inputArr[j])) {",
+            "                inputArr[j+1] = inputArr[j];",
+            "                j--;",
+            "            }",
+            "            inputArr[j+1] = current;",
+            "        }",
+            "    return inputArr;",
+            "}",
+        ],
+        "description": "Insertion Sorting Algorithm"
+    },
+    "Bubble Sort": {
+        "prefix": "$bbl-srt",
+        "body": [
+            "let bubbleSort = (inputArr) => {",
+            "    let len = inputArr.length;",
+            "    for (let i = 0; i < len; i++) {",
+            "        for (let j = 0; j < len; j++) {",
+            "            if (inputArr[j] > inputArr[j + 1]) {",
+            "                let tmp = inputArr[j];",
+            "                inputArr[j] = inputArr[j + 1];",
+            "                inputArr[j + 1] = tmp;",
+            "            }",
+            "        }",
+            "    }",
+            "    return inputArr;",
+            "};",
+        ],
+        "description": "Bubble Sorting Algorithm"
+    },
+    "Shell Sort": {
+        "prefix": "$shell-srt",
+        "body": [
+            
+        ],
+        "description": "Shell Sort Algorithm"
+    },
+    "Merge Sort": {
+        "prefix": "$mrg-srt",
+        "body": [
+            
+        ],
+        "description": "Merge Sort Algorithm"
+    },
+    "Quick Sort": {
+        "prefix": "$qk-srt",
+        "body": [
+            
+        ],
+        "description": "Quick Sort Algorithm"
+    },
+    "Heap Sort": {
+        "prefix": "$hp-srt",
+        "body": [
+            
+        ],
+        "description": "Heap Sort Algorithm"
+    },
 }

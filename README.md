@@ -7,13 +7,13 @@ This is the README for your extension "dsasnippets". After writing up a brief de
 Supports the following snippets:
 
 #### Sorting
-- [x] Selection
+- [x] Selection ($slctn-srt)
 
-- [ ] Insertion
+- [x] Insertion ($ins-srt)
 
-- [ ] Bubble
+- [x] Bubble ($bbl-srt)
 
-- [ ] Shell
+- [ ] Shell ()
 
 - [ ] Merge
 
