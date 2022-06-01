@@ -7,141 +7,141 @@ This is the README for your extension "dsasnippets". After writing up a brief de
 Supports the following snippets:
 
 #### Sorting
-[x] Selection
+- [x] Selection
 
-[] Insertion
+- [] Insertion
 
-[] Bubble
+- [] Bubble
 
-[] Shell
+- [] Shell
 
-[] Merge
+- [] Merge
 
-[] Quick
+- [] Quick
 
-[] Heap
+- [] Heap
 
-[] Bucket?
+- [] Bucket?
 
-[] Tim?
+- [] Tim?
 
-[] Counting?
+- [] Counting?
 
-[] Radix?
+- [] Radix?
 
 #### Searching
-[] Linear
+- [] Linear
 
-[] Binary
+- [] Binary
 
-[] Jump
+- [] Jump
 
-[] Interpolation
+- [] Interpolation
 
-[] Exponential
+- [] Exponential
 
-[] Fibonacci
+- [] Fibonacci
 
 #### Data Structures
-[] Array
-    [] Permutations
+- [] Array
+    - [] Permutations
     
-    [] Shuffle
+    - [] Shuffle
 
-[] LinkedList
-    [] Double LinkedList
+- [] LinkedList
+    - [] Double LinkedList
     
-    [] Straight Traversal
+    - [] Straight Traversal
     
-    [] Reverse Traversal
+    - [] Reverse Traversal
 
-[] Queue
+- [] Queue
 
-[] Stack
+- [] Stack
 
-[] Hash Table
+- [] Hash Table
 
-[] Heap
+- [] Heap
 
-[] Priority Queue
+- [] Priority Queue
 
-[] Tree
-    [] Binary Search Tree
+- [] Tree
+    - [] Binary Search Tree
     
-    [] AVL Tree
+    - [] AVL Tree
     
-    [] Red-Black Tree
+    - [] Red-Black Tree
     
-    [] Depth-First Search (DFS)
+    - [] Depth-First Search (DFS)
     
-    [] Breadth-First Search (BFS)
+    - [] Breadth-First Search (BFS)
 
-[] Graph
+- [] Graph
     
-    [] Depth-First Search (DFS)
+    - [] Depth-First Search (DFS)
     
-    [] Breadth-First Search (BFS)
+    - [] Breadth-First Search (BFS)
     
-    [] Kruskal's Algorithm
+    - [] Kruskal's Algorithm
     
-    [] Dijkstra's Algorithm
+    - [] Dijkstra's Algorithm
     
-    [] Bellman-Ford Algorithm
+    - [] Bellman-Ford Algorithm
     
-    [] Floyd-Warshall Algorithm
+    - [] Floyd-Warshall Algorithm
 
 #### Number Theory and Math
 
-[] Sieve of Eratosthenes
+- [] Sieve of Eratosthenes
 
-[] Sieve of Atkin
+- [] Sieve of Atkin
 
-[] Wilson's Theorem (Primality Test)
+- [] Wilson's Theorem (Primality Test)
 
-[] Prime Factorization
+- [] Prime Factorization
 
-[] Euler’s Totient Function
+- [] Euler’s Totient Function
 
-[] Modular Exponentiation
+- [] Modular Exponentiation
 
-[] Chinese remainder theorem
+- [] Chinese remainder theorem
 
-[] Matrix Rank
+- [] Matrix Rank
 
-[] Factorial
-    [] Recursive Factorial
+- [] Factorial
+    - [] Recursive Factorial
 
-[] Pascal's Triangle
+- [] Pascal's Triangle
 
-[] Euclidean Distance
+- [] Euclidean Distance
 
 #### Strings
 
-[] Reverse
+- [] Reverse
 
-[] Index of Substrings
+- [] Index of Substrings
 
-[] Palindrome Check
+- [] Palindrome Check
 
-[] Hamming Distance
+- [] Hamming Distance
 
-[] Levenshtein Distance
+- [] Levenshtein Distance
 
-[] Rabin Karp Algorithm
+- [] Rabin Karp Algorithm
 
-[] Longest Common Substring
+- [] Longest Common Substring
 
-[] RegEx Matching
+- [] RegEx Matching
 
 #### Cryptography
 
-[] Polynomial Hash
+- [] Polynomial Hash
 
-[] Rail Fence Cipher
+- [] Rail Fence Cipher
 
-[] Caesar's Cipher
+- [] Caesar's Cipher
 
-[] Hill Cipher
+- [] Hill Cipher
 
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
