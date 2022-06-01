@@ -6,6 +6,20 @@
 	"version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Format",
+            "request": "launch",
+            "mainClass": "Format",
+            "projectName": "dsasnippets_dcced737"
+        },
+        {
+            "type": "java",
+            "name": "Launch Format",
+            "request": "launch",
+            "mainClass": "bin.Format",
+            "projectName": "dsasnippets_dcced737"
+        },
+        {
             "name": "Extension",
             "type": "extensionHost",
             "request": "launch",
