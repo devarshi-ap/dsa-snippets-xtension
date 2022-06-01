@@ -7,7 +7,7 @@ This is the README for your extension "dsasnippets". After writing up a brief de
 Supports the following snippets:
 
 #### Sorting
-[] Selection
+[x] Selection
 
 [] Insertion
 
@@ -31,69 +31,117 @@ Supports the following snippets:
 
 #### Searching
 [] Linear
+
 [] Binary
+
 [] Jump
+
 [] Interpolation
+
 [] Exponential
+
 [] Fibonacci
 
 #### Data Structures
 [] Array
-    - Permutations
-    - Shuffle
+    [] Permutations
+    
+    [] Shuffle
+
 [] LinkedList
-    - Double LinkedList
-    - Straight Traversal
-    - Reverse Traversal
+    [] Double LinkedList
+    
+    [] Straight Traversal
+    
+    [] Reverse Traversal
+
 [] Queue
+
 [] Stack
+
 [] Hash Table
+
 [] Heap
+
 [] Priority Queue
+
 [] Tree
-    - Binary Search Tree
-    - AVL Tree
-    - Red-Black Tree
-    - Depth-First Search (DFS)
-    - Breadth-First Search (BFS)
+    [] Binary Search Tree
+    
+    [] AVL Tree
+    
+    [] Red-Black Tree
+    
+    [] Depth-First Search (DFS)
+    
+    [] Breadth-First Search (BFS)
+
 [] Graph
-    - Depth-First Search (DFS)
-    - Breadth-First Search (BFS)
-    - Kruskal's Algorithm
-    - Dijkstra's Algorithm
-    - Bellman-Ford Algorithm
-    - Floyd-Warshall Algorithm
+    
+    [] Depth-First Search (DFS)
+    
+    [] Breadth-First Search (BFS)
+    
+    [] Kruskal's Algorithm
+    
+    [] Dijkstra's Algorithm
+    
+    [] Bellman-Ford Algorithm
+    
+    [] Floyd-Warshall Algorithm
 
 #### Number Theory and Math
+
 [] Sieve of Eratosthenes
+
 [] Sieve of Atkin
+
 [] Wilson's Theorem (Primality Test)
+
 [] Prime Factorization
+
 [] Euler’s Totient Function
+
 [] Modular Exponentiation
+
 [] Chinese remainder theorem
+
 [] Matrix Rank
+
 [] Factorial
-    - Recursive Factorial
+    [] Recursive Factorial
+
 [] Pascal's Triangle
+
 [] Euclidean Distance
 
 #### Strings
+
 [] Reverse
+
 [] Index of Substrings
+
 [] Palindrome Check
+
 [] Hamming Distance
+
 [] Levenshtein Distance
+
 [] Rabin Karp Algorithm
+
 [] Longest Common Substring
+
 [] RegEx Matching
 
 #### Cryptography
-[] Polynomial Hash
-[] Rail Fence Cipher
-[] Caesar's Cipher
-[] Hill Cipher
 
+[] Polynomial Hash
+
+[] Rail Fence Cipher
+
+[] Caesar's Cipher
+
+[] Hill Cipher
 
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
