@@ -23,7 +23,7 @@ Supports the following snippets:
 
 - [x] Counting ($cnt-srt)
 
-- [ ] Radix?
+- [x] Radix ($rx-srt)
 
 #### Searching
 - [ ] Linear
