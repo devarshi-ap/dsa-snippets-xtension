@@ -362,5 +362,115 @@
             "console.log(fibMonaccianSearch(${1:arrHere}, ${2:targetValHere}, ${3:arrLengthHere}))",
         ],
         "description": "Fibonacci Search Algorithm"
-    }
+    },
+    "Array": {
+        "prefix": "#arr",
+        "body": [
+            "const arrName = [\"el1\", \"el2\", \"el3\"]",
+        ],
+        "description": "Create Array"
+    },
+    "Array Uniques": {
+        "prefix": "#arr-uniques",
+        "body": [
+            "const getUniqueValues = (arrOfNum) => {",
+                "const set = new Set(arrOfNum);",
+                "return [...set];",
+            "}"
+        ],
+        "description": "Return Unique Values of Array"
+    },
+    "Array Permutations": {
+        "prefix": "#arr-permutations",
+        "body": [
+            "const permute = (nums) => {",
+            "    let result = [];",
+            "    let backtrack = (i, nums) => {",
+            "        if(i===nums.length){",
+            "            result.push(nums.slice());",
+            "            return;",
+            "        }  ",
+            "        for(let j = i; j < nums.length; j++){",
+            "            [nums[i],nums[j]] = [nums[j],nums[i]];",
+            "            backtrack(i+1, nums);",
+            "            [nums[i],nums[j]] = [nums[j],nums[i]];",
+            "        }",
+            "    }",
+            "    backtrack(0, nums);",
+            "    return result;",
+            "};",
+            "const permutations = permute(${1:arrHere});"
+        ],
+        "description": "Return 2D Array of Possible Permutations"
+    },
+    "Array Shuffle": {
+        "prefix": "#arr-shuffle",
+        "body": [
+            "const shuffleArray = array => {",
+            "    for (let i = array.length - 1; i > 0; i--) {",
+            "        const j = Math.floor(Math.random() * (i + 1));",
+            "        [array[i], array[j]] = [array[j], array[i]];",
+            "    }",
+            "};",
+            "",
+            "shuffleArray(${1:arrHere});",
+            "console.log(${1:arrHere});",
+        ],
+        "description": "Return Shuffled Array"
+    },
+    "Array For-Each Traversal": {
+        "prefix": "#arr-trav",
+        "body": [
+            "${1:arrHere}.forEach((item, index) => {",
+            "    console.log(item, index);",
+            "});",
+        ],
+        "description": "For-Each Traversal of Array"
+    },
+    "Array For-Each Reverse Traversal": {
+        "prefix": "#arr-revtrav",
+        "body": [
+            "${1:arrHere}.slice().reverse().forEach((item, index) => {",
+            "    console.log(item, index);",
+            "});",
+        ],
+        "description": "For-Each Reverse Traversal of Array"
+    },
+    "Queue (Class Implementation)": {
+        "prefix": "#queue",
+        "body": [
+            "class Queue {",
+            "    constructor() {",
+            "        this.items = {};",
+            "        this.headIndex = 0;",
+            "        this.tailIndex = 0;",
+            "    }",
+            "    enqueue(item) {",
+            "        this.items[this.tailIndex] = item;",
+            "        this.tailIndex++;",
+            "    }",
+            "    dequeue() {",
+            "        const item = this.items[this.headIndex];",
+            "        delete this.items[this.headIndex];",
+            "        this.headIndex++;",
+            "        return item;",
+            "    }",
+            "    peek() {",
+            "        return this.items[this.headIndex];",
+            "    }",
+            "    get length() {",
+            "        return this.tailIndex - this.headIndex;",
+            "    }",
+            "}",
+            "const queue = new Queue();",
+            "queue.enqueue(7);",
+            "queue.enqueue(2);",
+            "queue.enqueue(6);",
+            "queue.enqueue(4);",
+            "queue.dequeue(); // 7",
+            "queue.peek();    // 2",
+            "queue.length;    // 3",
+        ],
+        "description": "Class Implementation of Queue"
+    },
 }
