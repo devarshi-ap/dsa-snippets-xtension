@@ -43,17 +43,15 @@ Currently supports the following snippets (more to come):
 
 - [x] Tree `#tree`
 
-    - [ ] Binary Search Tree `#tree-bi-srch`
+    - [x] Binary Search Tree `#tree-bst`
+        - [ ] DFS / BFS ?
     
-    - [ ] AVL Tree `#tree-avl`
+    - [x] AVL Tree `#tree-avl`
     
-    - [ ] Red-Black Tree `#tree-red-black`
+    - [x] Red-Black Tree `#tree-redblack`
     
-    - [ ] Depth-First Search (DFS) `#tree-dfs`
-    
-    - [ ] Breadth-First Search (BFS) `#tree-bfs`
+- [x] Graph (BFS + DFS supported) `#graph`
 
-- [ ] Heap
 
 ## Release Notes
 
