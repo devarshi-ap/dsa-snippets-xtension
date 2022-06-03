@@ -2,7 +2,7 @@
     "name": "dsasnippets",
     "displayName": "DSA Snippets",
     "description": "JS code snippet extension for data structures and algorithm",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "DevarshiPatel03",
     "author": {
         "name": "Devarshi Patel"
