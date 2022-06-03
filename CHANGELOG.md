@@ -4,7 +4,12 @@ All notable changes to the "dsasnippets" extension will be documented in this fi
 
 ## [Unreleased]
 
-## [1.1.0] - 2022-06-03
+## [1.2.0] - 2022-06-03
+### Added
+- Trees (BST, AVL)
+- Graph (DFS & BFS supported)
+
+## [1.1.0] - 2022-06-02
 ### Added
 - data structures, prefixed by `#`, and possibly their corresponding common algorithms
 
