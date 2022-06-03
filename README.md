@@ -66,3 +66,5 @@ Initial release of dsa-snippets extensions for JS - features sorting and searchi
 ### 1.1.0
 
 Introduce data structure snippets (`# prefix`)
+
+##### Made with ❤️ by Dev and Ejaaj 
