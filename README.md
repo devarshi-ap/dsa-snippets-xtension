@@ -41,6 +41,20 @@ Currently supports the following snippets (more to come):
 - [x] Map
     - [x] Traversal
 
+- [x] Tree
+
+    - [ ] Binary Search Tree
+    
+    - [ ] AVL Tree
+    
+    - [ ] Red-Black Tree
+    
+    - [ ] Depth-First Search (DFS)
+    
+    - [ ] Breadth-First Search (BFS)
+
+- [ ] Heap
+
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
