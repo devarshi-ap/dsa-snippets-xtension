@@ -1,4 +1,4 @@
-# dsasnippets README
+# VS Code Data Structures & Algorithms Snippets Extension
 
 ## Features
 
