@@ -63,6 +63,6 @@ Users appreciate release notes as you update your extension.
 
 Initial release of dsa-snippets extensions for JS - features sorting and searching snippets exclusively for first version (`$ prefix`)
 
-### 1.0.1
+### 1.1.0
 
 Introduce data structure snippets (`# prefix`)
