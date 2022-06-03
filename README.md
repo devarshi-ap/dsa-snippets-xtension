@@ -34,24 +34,24 @@ Currently supports the following snippets (more to come):
   - [x] Permutations `#arr-permutations`
   - [x] Shuffle (Fisher-Yates algorithm) `#arr-shuffle`
 
-- [x] Queue (Class Implementation)
+- [x] Queue (Class Impl.) `#queue`
 
-- [x] Stack (Class Implementation)
+- [x] Stack (Class Impl.) `#stack`
 
-- [x] Map
-    - [x] Traversal
+- [x] Map `#map`
+    - [x] Traversal `#map-trav`
 
-- [x] Tree
+- [x] Tree `#tree`
 
-    - [ ] Binary Search Tree
+    - [ ] Binary Search Tree `#tree-bi-srch`
     
-    - [ ] AVL Tree
+    - [ ] AVL Tree `#tree-avl`
     
-    - [ ] Red-Black Tree
+    - [ ] Red-Black Tree `#tree-red-black`
     
-    - [ ] Depth-First Search (DFS)
+    - [ ] Depth-First Search (DFS) `#tree-dfs`
     
-    - [ ] Breadth-First Search (BFS)
+    - [ ] Breadth-First Search (BFS) `#tree-bfs`
 
 - [ ] Heap
 
