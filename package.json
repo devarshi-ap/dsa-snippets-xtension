@@ -19,7 +19,9 @@
         "JavaScript",
         "Data Structures",
         "Algorithms",
-        "Snippets Library"
+        "Snippets Library",
+        "Sorting Algorithms",
+        "Searching Algorithms"
     ],
     "engines": {
         "vscode": "^1.67.0"
