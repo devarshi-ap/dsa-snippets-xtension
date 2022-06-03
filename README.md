@@ -36,9 +36,10 @@ Currently supports the following snippets (more to come):
 
 - [x] Queue (Class Implementation)
 
-- [ ] Stack
+- [x] Stack (Class Implementation)
 
-- [ ] Hash Table
+- [x] Map
+    - [x] Traversal
 
 ## Release Notes
 
