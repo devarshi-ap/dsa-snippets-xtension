@@ -4,7 +4,7 @@ All notable changes to the "dsasnippets" extension will be documented in this fi
 
 ## [Unreleased]
 
-## [2.2.0] - 2022-06-03
+## [2.0.0] - 2022-06-03
 ### Added
 - Several Number Theory and Math Algorithms
 
