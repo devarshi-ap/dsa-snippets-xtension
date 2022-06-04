@@ -24,4 +24,3 @@ All notable changes to the "dsasnippets" extension will be documented in this fi
 ## [1.0.0] - 2022-06-01
 ### Added
 - sorting and searching snippets, prefixed by `$`
-
