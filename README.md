@@ -78,4 +78,8 @@ Currently supports the following snippets (more to come):
 
 - [x] Polynomial Hash `#poly-hash`
 
+- [x] Caesar's Cipher `#csr-cphr`
+
+- [x] Rail Fence Cipher `#railfence-cphr`
+
 ##### Made with ❤️ by Dev and Ejaaj 
