@@ -79,4 +79,5 @@ Currently supports the following snippets (more to come):
 - [x] Polynomial Hash `#poly-hash`
 
 Tampa
+ballsack
 ##### Made with ❤️ by Dev and Ejaaj 
