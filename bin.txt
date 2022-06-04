@@ -1,0 +1,11 @@
+function hash(key, arraySize) {
+  const base = 13;
+
+  let hash = 0;
+  for (let charIndex = 0; charIndex < key.length; charIndex += 1) {
+    const charCode = key.charCodeAt(charIndex);
+    hash = (hash * base + charCode) % arraySize;
+  }
+
+  return hash;
+}

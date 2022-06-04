@@ -10,6 +10,13 @@
             "name": "Launch Format",
             "request": "launch",
             "mainClass": "Format",
+            "projectName": "dsa-snippets-xtension_69208035"
+        },
+        {
+            "type": "java",
+            "name": "Launch Format",
+            "request": "launch",
+            "mainClass": "Format",
             "projectName": "dsasnippets_dcced737"
         },
         {

@@ -74,17 +74,9 @@ Currently supports the following snippets (more to come):
 
 - [x] Euclidean Distance `#eucl-dist`
 
+#### Crytography
 
-## Release Notes
+- [x] Polynomial Hash `#poly-hash`
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of dsa-snippets extensions for JS - features sorting and searching snippets exclusively for first version (`$ prefix`)
-
-### 1.1.0
-
-Introduce data structure snippets (`# prefix`)
 
 ##### Made with ❤️ by Dev and Ejaaj 
