@@ -52,6 +52,28 @@ Currently supports the following snippets (more to come):
     
 - [x] Graph (BFS + DFS supported) `#graph`
 
+#### Number Theory and Math
+
+- [x] Sieve of Eratosthenes `#sieve-erat`
+
+- [x] Sieve of Atkin `#sieve-atkin`
+
+- [x] Wilson's Theorem (Primality Test) `#wilson-thm`
+
+- [x] Prime Factorization `#prime-factr`
+
+- [x] Euler’s Totient Function `#euler-totient-fx`
+
+- [x] Modular Exponentiation `#mod-exp`
+
+- [x] Factorial (Recursive) `#factorial-rec`
+
+- [x] Factorial (Iterative) `#factorial-itr`
+
+- [x] Pascal's Triangle `#pascal-tri`
+
+- [x] Euclidean Distance `#eucl-dist`
+
 
 ## Release Notes
 
