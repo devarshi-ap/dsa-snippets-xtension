@@ -1,41 +1,14 @@
-function areEqual(S1, S2) {
-	if (S1 !== S2) {
-		return false
-	}
-	for (i = 0; i < S1.length; i++) {
-		if (S1[i] !== S2[i]) {
-			return false
-		}
-	}
-	return true
-}
+function common_substring(data) {
+  	var i, ch, memo, idx = 0
+  	do {
+    	memo = null
+    	for (i=0; i < data.length; i++) {
+      	ch = data[i].charAt(idx)
+      	if (!ch) break
+      	if (!memo) memo = ch
+      	else if (ch != memo) break
+    }
+  	} while (i == data.length && idx < data.length && ++idx)
 
-function polyHash(S, p, x) {
-	var hash = 0
-	for (i = 0; i <= S.length - 1; i++) {
-		hash = (hash * x + S.charCodeAt(i)) % p
-	}
-	return hash
-}
-
-function rabinKarp(T, P) {
-	var p = 1019
-	x = 34
-	var positions = []
-	pHash = polyHash(P,p,x)
-var text
-	var tHash
-
-	for (k = 0; k <= (T.length - P.length); k++) {
-		text = T.slice(k, (k + P.length))
-
-		tHash = polyHash(text,p,x)
-		if (pHash !== tHash) {
-			continue
-		}
-		if (areEqual(text,P)) {
-			positions.push(k)
-		}
-	}
-	return positions
+  	return (data[0] || '').slice(0, idx)
 }
