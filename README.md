@@ -6,70 +6,70 @@ Currently supports the following snippets (more to come):
 
 #### Sorting
 
-- [x] Selection `$slctn-srt`
-- [x] Insertion `$ins-srt`
-- [x] Bubble `$bbl-srt`
-- [x] Shell `$shell-srt`
-- [x] Merge `$mrg-srt`
-- [x] Quick `$qk-srt`
-- [x] Heap `$hp-srt`
-- [x] Counting `$cnt-srt`
-- [x] Radix `$rx-srt`
+- Selection `$slctn-srt`
+- Insertion `$ins-srt`
+- Bubble `$bbl-srt`
+- Shell `$shell-srt`
+- Merge `$mrg-srt`
+- Quick `$qk-srt`
+- Heap `$hp-srt`
+- Counting `$cnt-srt`
+- Radix `$rx-srt`
 
 #### Searching
 
-- [x] Linear `$lin-srch`
-- [x] Binary `$bi-srch`
-- [x] Jump `$jmp-srch`
-- [x] Interpolation `$interpl-srch`
-- [x] Fibonacci `$fib-srch`
+- Linear `$lin-srch`
+- Binary `$bi-srch`
+- Jump `$jmp-srch`
+- Interpolation `$interpl-srch`
+- Fibonacci `$fib-srch`
 
 #### Data Structures
 
-- [x] Array `#arr`
-  - [x] For-Each Traversal `#arr-trav`
-  - [x] For-Each Reversal Traversal `#arr-revtrav`
-  - [x] Get Uniques `#arr-uniques`
-  - [x] Permutations `#arr-permutations`
-  - [x] Shuffle (Fisher-Yates algorithm) `#arr-shuffle`
-- [x] Queue (Class Impl.) `#queue`
-- [x] Stack (Class Impl.) `#stack`
-- [x] Map `#map`
-    - [x] Traversal `#map-trav`
-- [x] Tree `#tree`
-    - [x] Binary Search Tree `#tree-bst`
+- Array `#arr`
+  - For-Each Traversal `#arr-trav`
+  - For-Each Reversal Traversal `#arr-revtrav`
+  - Get Uniques `#arr-uniques`
+  - Permutations `#arr-permutations`
+  - Shuffle (Fisher-Yates algorithm) `#arr-shuffle`
+- Queue (Class Impl.) `#queue`
+- Stack (Class Impl.) `#stack`
+- Map `#map`
+    - Traversal `#map-trav`
+- Tree `#tree`
+    - Binary Search Tree `#tree-bst`
         - [ ] DFS / BFS ?
-    - [x] AVL Tree `#tree-avl`    
-    - [x] Red-Black Tree `#tree-redblack`
-- [x] Graph (BFS + DFS supported) `#graph`
+    - AVL Tree `#tree-avl`    
+    - Red-Black Tree `#tree-redblack`
+- Graph (BFS + DFS supported) `#graph`
 
 #### Number Theory and Math
 
-- [x] Sieve of Eratosthenes `#sieve-erat`
-- [x] Sieve of Atkin `#sieve-atkin`
-- [x] Wilson's Theorem (Primality Test) `#wilson-thm`
-- [x] Prime Factorization `#prime-factr`
-- [x] Euler’s Totient Function `#euler-totient-fx`
-- [x] Modular Exponentiation `#mod-exp`
-- [x] Factorial (Recursive) `#factorial-rec`
-- [x] Factorial (Iterative) `#factorial-itr`
-- [x] Pascal's Triangle `#pascal-tri`
-- [x] Euclidean Distance `#eucl-dist`
+- Sieve of Eratosthenes `#sieve-erat`
+- Sieve of Atkin `#sieve-atkin`
+- Wilson's Theorem (Primality Test) `#wilson-thm`
+- Prime Factorization `#prime-factr`
+- Euler’s Totient Function `#euler-totient-fx`
+- Modular Exponentiation `#mod-exp`
+- Factorial (Recursive) `#factorial-rec`
+- Factorial (Iterative) `#factorial-itr`
+- Pascal's Triangle `#pascal-tri`
+- Euclidean Distance `#eucl-dist`
 
 #### Crytography
 
-- [x] Polynomial Hash `#poly-hash`
-- [x] Caesar's Cipher `#csr-cphr`
-- [x] Rail Fence Cipher `#railfence-cphr`
+- Polynomial Hash `#poly-hash`
+- Caesar's Cipher `#csr-cphr`
+- Rail Fence Cipher `#railfence-cphr`
 
 #### String
 
-- [x] Reverse `#str-rev`
-- [x] Palindrome Check `#str-palindrome`
-- [x] Hamming Distance `#str-hamming`
-- [x] Levenshtein Distance `#str-levenshtein`
-- [x] Rabin Karp Algorithm `#str-rabin-karp`
-- [x] Longest Common Substring `#substr-lng-cmn`
+- Reverse `#str-rev`
+- Palindrome Check `#str-palindrome`
+- Hamming Distance `#str-hamming`
+- Levenshtein Distance `#str-levenshtein`
+- Rabin Karp Algorithm `#str-rabin-karp`
+- Longest Common Substring `#substr-lng-cmn`
 
 #### Suggestions?
 
