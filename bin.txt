@@ -1,14 +1,41 @@
-const str1 = 'Hello World';
-const str2 = 'Heeyy World';
-const findHammingDistance = (str1 = '', str2 = '') => {
-   	let distance = 0;
-   	if(str1.length === str2.length) {
-      	for (let i = 0; i < str1.length; i++) {
-         	if (str1[i].toLowerCase() != str2[i].toLowerCase()){
-            	distance++
-         	}
-      	}
-      	return distance
-   	};
-   	return 0;
-};
+function areEqual(S1, S2) {
+	if (S1 !== S2) {
+		return false
+	}
+	for (i = 0; i < S1.length; i++) {
+		if (S1[i] !== S2[i]) {
+			return false
+		}
+	}
+	return true
+}
+
+function polyHash(S, p, x) {
+	var hash = 0
+	for (i = 0; i <= S.length - 1; i++) {
+		hash = (hash * x + S.charCodeAt(i)) % p
+	}
+	return hash
+}
+
+function rabinKarp(T, P) {
+	var p = 1019
+	x = 34
+	var positions = []
+	pHash = polyHash(P,p,x)
+var text
+	var tHash
+
+	for (k = 0; k <= (T.length - P.length); k++) {
+		text = T.slice(k, (k + P.length))
+
+		tHash = polyHash(text,p,x)
+		if (pHash !== tHash) {
+			continue
+		}
+		if (areEqual(text,P)) {
+			positions.push(k)
+		}
+	}
+	return positions
+}
