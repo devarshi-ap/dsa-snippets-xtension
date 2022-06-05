@@ -82,4 +82,18 @@ Currently supports the following snippets (more to come):
 
 - [x] Rail Fence Cipher `#railfence-cphr`
 
+#### Crytography
+
+- [x] Reverse `#reverse`
+
+- [x] Palindrome Check `#pld-check`
+
+- [x] Hamming Distance `#ham-distance`
+
+- [x] Levenshtein Distance `#lev-distance`
+
+- [x] Rabin Karp Algorithm `#rbn-krp-algrthm`
+
+- [x] Longest Common Substring `#lc-substring`
+
 ##### Made with ❤️ by Dev and Ejaaj 
