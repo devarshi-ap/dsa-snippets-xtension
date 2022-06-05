@@ -36,5 +36,8 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "scripts": {
+        "test": "mocha"
     }
 }
