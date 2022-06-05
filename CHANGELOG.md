@@ -4,6 +4,10 @@ All notable changes to the "dsasnippets" extension will be documented in this fi
 
 ## [Unreleased]
 
+## [4.0.0] - 2022-06-05
+### Added
+- New String Algorithms
+
 ## [3.0.0] - 2022-06-03
 ### Added
 - Few Cryptographic Algorithms

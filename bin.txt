@@ -1,14 +1,2 @@
-function common_substring(data) {
-  	var i, ch, memo, idx = 0
-  	do {
-    	memo = null
-    	for (i=0; i < data.length; i++) {
-      	ch = data[i].charAt(idx)
-      	if (!ch) break
-      	if (!memo) memo = ch
-      	else if (ch != memo) break
-    }
-  	} while (i == data.length && idx < data.length && ++idx)
-
-  	return (data[0] || '').slice(0, idx)
-}
+var str = '${1:strHere}'
+console.log(rabinKarp(str, 'magicword')) // [0,32,250,305]
