@@ -1,13 +1,14 @@
-public boolean isPalindrome(String text) {
-    String clean = text.replaceAll("\\s+", "").toLowerCase();
-    int length = clean.length();
-    int forward = 0;
-    int backward = length - 1;
-    while (backward > forward) {
-        char forwardChar = clean.charAt(forward++);
-        char backwardChar = clean.charAt(backward--);
-        if (forwardChar != backwardChar)
-            return false;
-    }
-    return true;
-}
+const str1 = 'Hello World';
+const str2 = 'Heeyy World';
+const findHammingDistance = (str1 = '', str2 = '') => {
+   	let distance = 0;
+   	if(str1.length === str2.length) {
+      	for (let i = 0; i < str1.length; i++) {
+         	if (str1[i].toLowerCase() != str2[i].toLowerCase()){
+            	distance++
+         	}
+      	}
+      	return distance
+   	};
+   	return 0;
+};
