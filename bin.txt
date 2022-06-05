@@ -1,2 +1,0 @@
-var str = '${1:strHere}'
-console.log(rabinKarp(str, 'magicword')) // [0,32,250,305]
