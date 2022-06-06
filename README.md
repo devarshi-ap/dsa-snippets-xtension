@@ -2,7 +2,13 @@
 
 ## Features
 
-Currently supports the following snippets (more to come):
+Install our extension from [vscode marketplace](https://marketplace.visualstudio.com/items?itemName=DevarshiPatel03.dsasnippets&ssr=false#overview) or the Extensions section in VS Code under **"DSA Snippets"**
+
+
+Data Structures are prefixed with `#`
+Algorithms are prefixed with `$`
+
+Currently supports the following snippets:
 
 #### Sorting
 
